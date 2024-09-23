@@ -7,7 +7,7 @@ import Search from "./components/Search";
 import './App.css';
 
 
-function App() {
+function App() { // cria um pequeno banco de dados
   const [todos, setTodos] = useState([
     {
       id: 1,
